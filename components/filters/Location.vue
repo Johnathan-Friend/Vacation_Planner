@@ -53,7 +53,7 @@ export default {
   methods: {
     async initAutocomplete () {
       const script = document.createElement('script')
-      script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAdy61LEgxrAQjk63D9n9F-uW1lexiSHQo&libraries=places'
+      script.src = 'your-key-goes-here'
       script.defer = true
       script.async = true
 
