@@ -190,7 +190,7 @@ onMounted(async () => {
 
   const script = document.createElement('script')
   script.async = true
-  script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDr6S2d_oKIn9rHVAbpatXnR4mU95jgZ_4&loading=async&libraries=places&callback=initMap'
+  script.src = 'your-api-key-goes-here'
   document.head.appendChild(script)
 
   const newTrip = new Trip(tripQuery.location.name)
